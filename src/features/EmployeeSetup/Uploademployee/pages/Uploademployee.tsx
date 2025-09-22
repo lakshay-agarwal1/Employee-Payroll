@@ -639,13 +639,13 @@ export default function UploadEmployee() {
       <div className="max-w-7xl mx-auto">
         <header className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold text-gray-900">Upload Employee</h1>
-          <nav className="text-sm text-gray-500">
+          {/* <nav className="text-sm text-gray-500">
             <span>Dashboard</span>
             <span className="mx-2">/</span>
             <span>Employee Setup</span>
             <span className="mx-2">/</span>
             <span className="text-gray-800 font-medium">Upload Employees</span>
-          </nav>
+          </nav> */}
         </header>
         <main className="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200">
           {!file ? renderInitialState() : renderFilePreview()}
